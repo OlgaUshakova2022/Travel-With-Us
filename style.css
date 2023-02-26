@@ -539,4 +539,321 @@ body {
     top: -90px;
     left: 175px;
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in;
+}
+
+.wrapper {
+  width: 93.75%;
+  margin: 0 auto;
+}
+
+.wrapper6 {
+  width: 93.75%;
+  margin: 0 auto;
+}
+
+/*Mobile-576px*/
+.main5 {
+  background-image: url("img/bg-main5-576px.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 616px;
+  padding: 120px 0;
+}
+
+.content {
+  background: rgba(35, 35, 35, 0.9);
+  z-index: 1;
+  padding: 44px 32px;
+  height: 100%;
+  max-height: 376px;
+}
+.content__text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  color: white;
+}
+.content__headline {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  margin-top: 16px;
+  text-transform: uppercase;
+}
+.content__desc {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color: white;
+  margin-top: 16px;
+}
+@keyframes example {
+  0% {
+    background: linear-gradient(45deg, rgb(72, 107, 254) 40%, rgb(83, 115, 253) 40%);
+  }
+  10% {
+    background: linear-gradient(45deg, rgb(72, 107, 254) 46%, rgb(83, 115, 253) 40%);
+  }
+  20% {
+    background: linear-gradient(45deg, rgb(72, 107, 254) 52%, rgb(83, 115, 253) 40%);
+  }
+  30% {
+    background: linear-gradient(45deg, rgb(72, 107, 254) 58%, rgb(83, 115, 253) 40%);
+  }
+  40% {
+    background: linear-gradient(45deg, rgb(72, 107, 254) 64%, rgb(83, 115, 253) 40%);
+  }
+  50% {
+    background: linear-gradient(45deg, rgb(72, 107, 254) 70%, rgb(83, 115, 253) 40%);
+  }
+  60% {
+    background: linear-gradient(45deg, rgb(72, 107, 254) 76%, rgb(83, 115, 253) 40%);
+  }
+  70% {
+    background: linear-gradient(45deg, rgb(72, 107, 254) 82%, rgb(83, 115, 253) 40%);
+  }
+  80% {
+    background: linear-gradient(45deg, rgb(72, 107, 254) 88%, rgb(83, 115, 253) 40%);
+  }
+  90% {
+    background: linear-gradient(45deg, rgb(72, 107, 254) 94%, rgb(83, 115, 253) 40%);
+  }
+  100% {
+    background: linear-gradient(45deg, rgb(72, 107, 254) 100%, rgb(83, 115, 253) 40%);
+  }
+}
+.content__btn {
+  font-family: Aleo, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.07em;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  width: 213px;
+  height: 60px;
+  background: rgb(72, 107, 254);
+  background: linear-gradient(45deg, rgb(72, 107, 254) 41%, rgb(83, 115, 253) 40%);
+  border: none;
+  margin-top: 28px;
+}
+.content__btn:hover {
+  background: linear-gradient(45deg, rgb(72, 107, 254) 100%, rgb(83, 115, 253) 40%);
+  animation-name: example;
+  animation-timing-function: ease;
+  animation-duration: 0.3s;
+}
+.content__btn:focus {
+  transform: scale(1.1);
+  border: 1px solid white;
+}
+
+.main6 {
+  background-image: url("img/bg-main6-576px.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.main7 {
+  background-image: url("img/bg-main7-576px.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  height: 980px;
+}
+.main7__headline {
+  font-family: Aleo, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+
+.container1 {
+  margin-top: 60px;
+  background-color: #333333;
+}
+
+.cont-text {
+  padding: 48px 60px;
+}
+.cont-text__headline {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+}
+.cont-text__text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: white;
+  margin-top: 16px;
+}
+.cont-text__text:before {
+  content: url("img/quote.svg");
+  display: inline-block;
+  position: relative;
+  width: 25px;
+  top: -1px;
+  left: -1px;
+}
+
+.footer {
+  background-color: black;
+  padding: 80px 150px;
+}
+
+.logo-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+}
+
+.text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: white;
+  display: block;
+  margin-top: 8px;
+}
+
+.socials {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.socials-icon {
+  cursor: pointer;
+}
+
+.socials-icon:hover path {
+  fill: #5373FD;
+}
+
+/**/
+/*Tablet 768px*/
+@media screen and (min-width: 768px) {
+  .main5 {
+    background-image: url("img/bg-main5-768px.jpg");
+  }
+  .main6 {
+    background-image: url("img/bg-main6-768px.jpg");
+  }
+  .main7 {
+    background-image: url("img/bg-main7-768px.jpg");
+  }
+}
+/**/
+/*Desktop 1024px*/
+@media screen and (min-width: 1024px) {
+  .main5 {
+    background-image: url("img/bg-main5-1024px.jpg");
+    padding: 220px 0 120px 0;
+    height: 712px;
+  }
+  .content {
+    width: 100%;
+    max-width: 550px;
+    height: 100%;
+    max-height: 372px;
+  }
+  .content__btn {
+    margin-bottom: 11px;
+  }
+  .main6 {
+    background-image: url("img/bg-main6-1024px.jpg");
+    display: flex;
+    justify-content: right;
+    height: 712px;
+    padding: 220px 0 120px 0;
+  }
+  .wrapper6 {
+    display: flex;
+    justify-content: right;
+  }
+  .main7 {
+    background-image: url("img/bg-main7-1024px.jpg");
+    height: 736px;
+    padding: 120px 0 180px 0;
+  }
+  .container {
+    display: flex;
+  }
+}
+/**/
+/*Desktop 1360px*/
+@media screen and (min-width: 1360px) {
+  .wrapper {
+    width: 83.8235294118%;
+  }
+  .wrapper6 {
+    width: 83.8235294118%;
+  }
+  .main5 {
+    background-image: url("img/bg-main5-1360px.jpg");
+  }
+  .content {
+    width: 100%;
+    max-width: 558px;
+    height: 100%;
+    max-height: 372px;
+  }
+  .main6 {
+    background-image: url("img/bg-main6-1360px.jpg");
+  }
+  .main7 {
+    background-image: url("img/bg-main7-1360px.jpg");
+  }
+}
+/**/
+/*Desktop 1500px*/
+@media screen and (min-width: 1500px) {
+  .content {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    max-height: 372px;
+  }
+  .content__btn {
+    margin-bottom: 0;
+  }
+  .wrapper6 {
+    height: 100%;
+    max-height: 332px;
+  }
+}
+/**/
+@media screen and (max-width: 1023px) {
+  .man-img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
