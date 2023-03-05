@@ -211,6 +211,7 @@ body {
   width: 25px;
   height: 3px;
   margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: white;
 }
@@ -398,8 +399,7 @@ body {
     margin-top: 60px;
     margin-right: 24px;
     flex: 1 1 auto;
-    -moz-column-gap: 24px;
-         column-gap: 24px;
+    column-gap: 24px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -411,8 +411,7 @@ body {
     margin-top: 60px;
     margin-right: 5px;
     flex: 1 1 auto;
-    -moz-column-gap: 24px;
-         column-gap: 24px;
+    column-gap: 24px;
   }
 }
 
@@ -805,7 +804,7 @@ body {
     height: 736px;
     padding: 120px 0 180px 0;
   }
-  .container {
+  .container1 {
     display: flex;
   }
 }
@@ -856,4 +855,6 @@ body {
   .man-img {
     width: 100%;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
